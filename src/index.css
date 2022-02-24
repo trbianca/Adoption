@@ -1,13 +1,128 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@100;400;500&family=Padauk:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@200&family=Rajdhani:wght@500&family=Raleway:wght@600&family=Righteous&family=Roboto:wght@300;900&family=Supermercado+One&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container-central{
+  max-width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: 	#ebe9d4;
+
+}
+
+.container-header{
+  width: 100%;
+  height: 10vh;
+  background-color:#808000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.container-header a{
+  text-decoration: none;
+  color:white;
+}
+
+.container-header a:hover{
+  color:	#BDB76B
+}
+
+.container-header h1{
+  color:white;
+}
+
+.container-main{
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-cat{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.container-cat img{
+  width: 90%;
+  height: 90%;
+}
+
+.container-cat button{
+  width: 10vw;
+  position: relative;
+  top: 10px;
+  background-color: 	#808000;
+}
+
+.container-cat button:hover{
+  background-color: #BDB76B;
+}
+
+.container-dog{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.container-dog img{
+  width: 90%;
+  height: 90%;
+}
+
+.container-dog button{
+  width: 10vw;
+  position: relative;
+  top: 10px;
+  background-color: 	#808000;
+}
+
+.container-dog button:hover{
+  background-color: #BDB76B;
+}
+
+.display-cat{
+  width: 80%;
+  font-size: 0.75em;
+  position: relative;
+  top: 30px;
+}
+
+.display-dog{
+  width: 80%;
+  position: relative;
+  top: 30px;
+  font-size: 0.5em;
+}
+
+.container-footer{
+  width: 100%;
+  height: 10vh;
+  background-color:#808000;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
 }
